@@ -1,6 +1,5 @@
 import re
 
-# Define rules as patterns and responses
 rules = {
     r"(hello|hi|hey)": "Hello! 👋 How can I help you today?",
     r"(how are you|how's it going)": "I'm doing great, thanks for asking! 😊",
@@ -17,7 +16,6 @@ def chatbot_response(user_input):
             return response
     return "Sorry, I don't understand that yet. 🙈"
 
-# Main loop
 print("CODSOFT Chatbot (Advanced) is ready! Type 'bye' to exit.")
 while True:
     user_input = input("You: ")

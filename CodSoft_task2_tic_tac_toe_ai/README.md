@@ -1,18 +1,40 @@
-# Tic-Tac-Toe AI 🎮
+# Task 2 - Tic-Tac-Toe AI
 
-This project implements an **unbeatable Tic-Tac-Toe AI** using the **Minimax algorithm**.  
-The human player uses **X**, and the AI uses **O**.
+## 📌 Overview
+This project implements an **AI-powered Tic-Tac-Toe game** in Python.  
+The AI uses the **Minimax algorithm** to play optimally against the user, ensuring challenging gameplay.
 
-## Features
-- Human vs AI gameplay
-- AI uses Minimax search to always play optimally
-- Simple command-line interface
-- No external libraries required (pure Python)
-
-## Installation
-No extra dependencies needed. Just Python 3.8+.
-
-## Usage
-Run the game:
+## 🛠 Requirements
+Install dependencies:
 ```bash
-py tic_tac_toe_ai.py
+pip install -r requirements.txt
+▶️ How to Run
+Run the Tic-Tac-Toe script:
+
+bash
+python tic_tac_toe_ai.py
+🎮 Example Gameplay
+Code
+You are X, AI is O
+
+Board:
+ | | 
+-+-+-
+ | | 
+-+-+-
+ | | 
+
+Enter your move (1-9): 5
+
+AI Move:
+ | | 
+-+-+-
+ |X| 
+-+-+-
+ | |O
+📂 Files
+tic_tac_toe_ai.py → main game script with AI logic
+
+requirements.txt → dependencies
+
+README.md → documentation

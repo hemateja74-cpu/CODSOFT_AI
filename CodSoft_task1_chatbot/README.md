@@ -22,5 +22,9 @@ The chatbot runs directly in the terminal and demonstrates basic AI concepts wit
 - **Libraries:** `re` (Python standard library)
 
 ---
+📂 Files
+chatbot.py → main chatbot script
 
-## 📂 Project Structure
+requirements.txt → dependencies
+
+README.md → documentation
